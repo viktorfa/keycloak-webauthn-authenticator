@@ -47,3 +47,5 @@ server.port=8081
 2. Enter `http://localost:8081` and click customers or some page you need to sign in to see.
 3. Sign in with user `a` and password `p` and follow the U2F instructions.
 4. Welcome to the future.
+
+Check this related [Youtube video](https://www.youtube.com/watch?v=hKa5qMbc5u4) for similar instructions.
