@@ -19,7 +19,7 @@
 #### Configure Keycloak
 1. Create a realm called `Webauthn`
 2. Create a client called `webauthn`
-3. Make `https://localhost:8081/*` a valid redirect URI for this client.
+3. Make `http://localhost:8081/*` a valid redirect URI for this client.
 4. Enter the Authentication page and make a copy of the browser flow. Add U2F as a required execution to this flow. 
 5. Enter the Bindings tab and change Browser Flow to the new flow (Copy of browser).
 6. Enter the Required Actions tab and click Register to register U2F.
