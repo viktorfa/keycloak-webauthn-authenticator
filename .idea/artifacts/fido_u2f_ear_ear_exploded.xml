@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="fido-u2f-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/u2f-ear/target/fido-u2f</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="fido-u2f-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/u2f-ear/target/fido-u2f/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/u2f-ear/src/main/application" />
+      <element id="archive" name="fido-u2f-ejb.jar">
+        <element id="module-output" name="fido-u2f-ejb" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/yubico/u2flib-server-core/0.19.0/u2flib-server-core-0.19.0.jar" output-file-name="u2flib-server-core.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>

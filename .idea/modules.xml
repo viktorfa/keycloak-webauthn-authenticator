@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/u2f-ear/fido-u2f-ear.iml" filepath="$PROJECT_DIR$/u2f-ear/fido-u2f-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u2f-ejb/fido-u2f-ejb.iml" filepath="$PROJECT_DIR$/u2f-ejb/fido-u2f-ejb.iml" />
       <module fileurl="file://$PROJECT_DIR$/webauthnkeycloakauthenticator.iml" filepath="$PROJECT_DIR$/webauthnkeycloakauthenticator.iml" />
     </modules>
   </component>
