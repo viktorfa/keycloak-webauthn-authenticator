@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="fido-u2f-ear:ear">
+    <output-path>$PROJECT_DIR$/u2f-ear/target</output-path>
+    <root id="archive" name="fido-u2f.ear">
+      <element id="artifact" artifact-name="fido-u2f-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

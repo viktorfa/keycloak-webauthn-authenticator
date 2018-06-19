@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="webauthnkeycloakauthenticator" />
+        <module name="fido-u2f-ear" />
+        <module name="fido-u2f-ejb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="webauthnkeycloakauthenticator" target="1.5" />
+      <module name="fido-u2f-ear" target="1.8" />
+      <module name="fido-u2f-ejb" target="1.8" />
+      <module name="webauthnkeycloakauthenticator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
